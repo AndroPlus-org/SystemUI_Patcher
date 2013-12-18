@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SystemUI Patcher</string>
+    <string name="app_description">Mod SystemUI.apk for Xperia. Tap here to configure settings.</string>
+    <string name="label_dataw">Change notif. header button to transparent</string>
+    <string name="sum_dataw">Make notification header button transparent.</string>
+    <string name="label_brigi">Brighten status bar icon</string>
+    <string name="sum_brigi">Disable Automatic dimming.</string>
+    <string name="label_bigi">Enlarge status bar icon</string>
+    <string name="sum_bigi">Disable Automatic dimming.</string>
+    <string name="label_tranz1">Fix transparent status bar</string>
+    <string name="sum_tranz1">Disable black layer on status bar.</string>
+    <string name="label_transjpn">Fix Japanese translations</string>
+    <string name="sum_transjpn">Fix Japanese translation for quick settings.</string>
+   
+    <string name="label_rebootaf">Note</string>
+    <string name="nosum">You may need to reboot for changes to take effect.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    
+    <string name="quick_settings_bluetooth_off_label">Bluetoothオフ</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fiオフ</string>
+    <string name="quick_settings_rotation_unlocked_label">画面の自動回転オン</string>
+    <string name="quick_settings_rotation_locked_label">画面の自動回転オフ</string>
+    
+    <string name="title_test_color">Test color</string>
+    <string name="summary_test_color">#FF000000</string>
+    <string name="label_press_color">Press on color to apply</string>
+    <string name="dialog_color_picker">Color Picker</string>
+</resources>

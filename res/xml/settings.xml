@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
+	<CheckBoxPreference
+	    android:key="key_dataw"
+	    android:title="@string/label_dataw"
+	    android:summary="@string/sum_dataw"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_brigi"
+	    android:title="@string/label_brigi"
+	    android:summary="@string/sum_brigi"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_bigi"
+	    android:title="@string/label_bigi"
+	    android:summary="@string/sum_bigi"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_tranz1"
+	    android:title="@string/label_tranz1"
+	    android:summary="@string/sum_tranz1"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_transjpn"
+	    android:title="@string/label_transjpn"
+	    android:summary="@string/sum_transjpn"
+	    android:defaultValue="false"/>
+	    
+	
+	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
+            <intent android:action="android.intent.action.VIEW"
+             android:data="http://androplus.kagome-kagome.com/" />
+        </Preference>
+        
+</PreferenceScreen>

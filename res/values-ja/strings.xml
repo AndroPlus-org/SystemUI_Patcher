@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SystemUI Patcher</string>
+    <string name="app_description">XperiaのSystemUI.apkを変更します。ここをタップすると設定が出来ます。</string>
+    <string name="label_dataw">通知領域のボタンを透明化</string>
+    <string name="sum_dataw">通知領域のボタンを透明化します。</string>
+    <string name="label_brigi">通知アイコンを明るくする</string>
+    <string name="sum_brigi">通知アイコンを暗くさせないようにします。</string>
+    <string name="label_bigi">通知アイコンを大きくする</string>
+    <string name="sum_bigi">通知アイコンを小さくさせないようにします。</string>
+    <string name="label_tranz1">ステータスバーの透過修正</string>
+    <string name="sum_tranz1">ステータスバーを透過したときに黒っぽくなる問題を修正します。</string>
+    <string name="label_transjpn">日本語訳の修正</string>
+    <string name="sum_transjpn">クイック設定タイルの日本語訳を修正します。</string>
+    
+    <string name="label_rebootaf">注意</string>
+    <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
+    <string name="mesum">"@WedyDQ10"</string>
+</resources>

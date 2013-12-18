@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="data_connection_except_mms_show_icon_when_disabled">false</bool>
+    <bool name="data_connection_except_mms_show_icon_when_enabled">false</bool>
+    <bool name="disable_charge_popups">true</bool>
+    <bool name="enable_call_recording">true</bool>
+    <bool name="use_3g_only">true</bool>
+    <bool name="enable_data_off_popup">false</bool>
+</resources>
