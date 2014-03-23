@@ -11,6 +11,8 @@
     <string name="sum_bigi">Disable Automatic dimming.</string>
     <string name="label_tranz1">Fix transparent status bar</string>
     <string name="sum_tranz1">Disable black layer on status bar.</string>
+    <string name="label_tranz144">Fix transparent status bar for 4.4</string>
+    <string name="sum_tranz144">Disable black layer on status bar for 4.4.</string>
     <string name="label_transjpn">Fix Japanese translations</string>
     <string name="sum_transjpn">Fix Japanese translation for quick settings.</string>
    

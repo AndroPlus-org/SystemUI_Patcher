@@ -46,6 +46,10 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.systemui", "color", "system_ui_transparent_background", 0x00000000);
 
 		}
+		boolean isTranz144 = preference.getBoolean("key_tranz144", false);
+		if(isTranz144){
+			resparam.res.setReplacement("com.android.systemui", "drawable", "system_bar_background", modRes.fwd(R.drawable.status_background));
+		}
 		boolean isJpntr = preference.getBoolean("key_transjpn", false);
 
 		if(isJpntr){

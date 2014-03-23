@@ -11,6 +11,8 @@
     <string name="sum_bigi">通知アイコンを小さくさせないようにします。</string>
     <string name="label_tranz1">ステータスバーの透過修正</string>
     <string name="sum_tranz1">ステータスバーを透過したときに黒っぽくなる問題を修正します。</string>
+    <string name="label_tranz144">ステータスバーの透過修正4.4向け</string>
+    <string name="sum_tranz144">(4.4向け)ステータスバーを透過したときに黒っぽくなる問題を修正します。</string>
     <string name="label_transjpn">日本語訳の修正</string>
     <string name="sum_transjpn">クイック設定タイルの日本語訳を修正します。</string>
     

@@ -22,6 +22,11 @@
 	    android:summary="@string/sum_tranz1"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
+	    android:key="key_tranz144"
+	    android:title="@string/label_tranz144"
+	    android:summary="@string/sum_tranz144"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
 	    android:key="key_transjpn"
 	    android:title="@string/label_transjpn"
 	    android:summary="@string/sum_transjpn"
