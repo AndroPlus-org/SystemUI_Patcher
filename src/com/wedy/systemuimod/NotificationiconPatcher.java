@@ -1,16 +1,17 @@
 package com.wedy.systemuimod;
 
-
+import android.content.SharedPreferences;
 import android.content.res.XModuleResources;
+import android.preference.PreferenceManager;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XSharedPreferences;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
 
-
 public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
 	private static XSharedPreferences preference = null;
 	private static String MODULE_PATH = null;
+
 
 	@Override
 	public void initZygote(StartupParam startupParam) throws Throwable {
@@ -48,7 +49,8 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		}
 		boolean isTranz144 = preference.getBoolean("key_tranz144", false);
 		if(isTranz144){
-			resparam.res.setReplacement("com.android.systemui", "drawable", "system_bar_background", modRes.fwd(R.drawable.status_background));
+			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInARow", 6);
+			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInGrid", 99);
 		}
 		boolean isJpntr = preference.getBoolean("key_transjpn", false);
 

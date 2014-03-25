@@ -44,6 +44,7 @@ public final class R {
         public static final int app_description=0x7f080001;
         public static final int app_name=0x7f080000;
         public static final int dialog_color_picker=0x7f080018;
+        public static final int key_list=0x7f080019;
         public static final int label_bigi=0x7f080006;
         public static final int label_brigi=0x7f080004;
         public static final int label_dataw=0x7f080002;
