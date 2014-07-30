@@ -7,4 +7,6 @@
     <color name="system_ui_transparent_background">#80262626</color>
     <color name="notification_panel_scrim_color">#b0000000</color>
     <color name="moving_item_background">#80000000</color>
+        <color name="transparent">#00000000</color>
+
 </resources>

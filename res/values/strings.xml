@@ -9,10 +9,13 @@
     <string name="sum_brigi">Disable Automatic dimming.</string>
     <string name="label_bigi">Enlarge status bar icon</string>
     <string name="sum_bigi">Disable Automatic dimming.</string>
+    <string name="label_heighttool">Set quicik settings height</string>
+    <string name="sum_heighttool">Set quick settings height to 50.0dip</string>
+    
     <string name="label_tranz1">Fix transparent status bar</string>
     <string name="sum_tranz1">Disable black layer on status bar.</string>
     <string name="label_tranz144">Change quick settings</string>
-    <string name="sum_tranz144">6 in a row and unlimited items in quick settings.</string>
+    <string name="sum_tranz144">Change the number of tiles in a row and unlimited items in quick settings.</string>
     <string name="label_transjpn">Fix Japanese translations</string>
     <string name="sum_transjpn">Fix Japanese translation for quick settings.</string>
    
@@ -25,9 +28,7 @@
     <string name="quick_settings_rotation_unlocked_label">画面の自動回転オン</string>
     <string name="quick_settings_rotation_locked_label">画面の自動回転オフ</string>
     
-    <string name="title_test_color">Test color</string>
-    <string name="summary_test_color">#FF000000</string>
-    <string name="label_press_color">Press on color to apply</string>
-    <string name="dialog_color_picker">Color Picker</string>
-<string name="key_list">Color Picker</string>
+    <string name="list_title">The number of tiles</string>
+    <string name="list_summary">Specify the number of tiles to show in a row of the quick settings. Enable Change quick settings first.</string>
+    <string name="list_dialogtitle">Number</string>
 </resources>

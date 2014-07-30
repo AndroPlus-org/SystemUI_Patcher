@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
 	<CheckBoxPreference
 	    android:key="key_dataw"
@@ -17,6 +17,12 @@
 	    android:summary="@string/sum_bigi"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
+	    android:key="key_heighttool"
+	    android:title="@string/label_heighttool"
+	    android:summary="@string/sum_heighttool"
+	    android:defaultValue="false" />
+	    
+	    <CheckBoxPreference
 	    android:key="key_tranz1"
 	    android:title="@string/label_tranz1"
 	    android:summary="@string/sum_tranz1"
@@ -26,6 +32,14 @@
 	    android:title="@string/label_tranz144"
 	    android:summary="@string/sum_tranz144"
 	    android:defaultValue="false" />
+	    <ListPreference
+	    android:key="list_key"
+	    android:title="@string/list_title"
+	    android:summary="@string/list_summary"
+	    android:dialogTitle="@string/list_dialogtitle"
+	    android:entries="@array/list_entries"
+	    android:entryValues="@array/list_entryvalues" />
+	    
 	    <CheckBoxPreference
 	    android:key="key_transjpn"
 	    android:title="@string/label_transjpn"

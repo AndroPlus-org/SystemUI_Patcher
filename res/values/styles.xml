@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="my_theme" parent="@android:style/Theme.Holo">
+    </style>
+    <style name="SampleTheme.Light" parent="android:Theme.Holo.Light">
+    </style>
+</resources>

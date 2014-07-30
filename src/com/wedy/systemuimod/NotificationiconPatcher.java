@@ -1,8 +1,6 @@
 package com.wedy.systemuimod;
 
-import android.content.SharedPreferences;
 import android.content.res.XModuleResources;
-import android.preference.PreferenceManager;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XSharedPreferences;
@@ -11,8 +9,7 @@ import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResou
 public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
 	private static XSharedPreferences preference = null;
 	private static String MODULE_PATH = null;
-
-
+	
 	@Override
 	public void initZygote(StartupParam startupParam) throws Throwable {
 	preference = new XSharedPreferences(NotificationiconPatcher.class.getPackage().getName());
@@ -21,6 +18,8 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 	@Override
 	public void handleInitPackageResources(InitPackageResourcesParam resparam) throws Throwable {
+		String s = preference.getString("list_key", "unknown");
+		int i = Integer.parseInt(s);
 		if (!resparam.packageName.equals("com.android.systemui"))
 			return;
 
@@ -41,6 +40,14 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.systemui", "dimen", "status_bar_icon_drawing_size", modRes.fwd(R.dimen.status_bar_icon_drawing_size));
 
 		}
+		boolean isHeighttool = preference.getBoolean("key_heighttool", false);
+		if(isHeighttool){
+			resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_tools_row_height", modRes.fwd(R.dimen.notification_panel_tools_row_height));
+
+		}
+		
+		
+		
 		boolean isTranz1 = preference.getBoolean("key_tranz1", false);
 		if(isTranz1){
 			resparam.res.setReplacement("com.android.systemui", "color", "system_ui_opaque_background", 0x00000000);
@@ -48,8 +55,9 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 		}
 		boolean isTranz144 = preference.getBoolean("key_tranz144", false);
+
 		if(isTranz144){
-			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInARow", 6);
+			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInARow", i);
 			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInGrid", 99);
 		}
 		boolean isJpntr = preference.getBoolean("key_transjpn", false);

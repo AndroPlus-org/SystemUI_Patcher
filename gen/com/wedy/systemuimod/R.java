@@ -8,28 +8,34 @@
 package com.wedy.systemuimod;
 
 public final class R {
+    public static final class array {
+        public static final int list_entries=0x7f040000;
+        public static final int list_entryvalues=0x7f040001;
+    }
     public static final class attr {
     }
     public static final class bool {
-        public static final int data_connection_except_mms_show_icon_when_disabled=0x7f040000;
-        public static final int data_connection_except_mms_show_icon_when_enabled=0x7f040001;
-        public static final int disable_charge_popups=0x7f040002;
-        public static final int enable_call_recording=0x7f040003;
-        public static final int enable_data_off_popup=0x7f040005;
-        public static final int use_3g_only=0x7f040004;
+        public static final int data_connection_except_mms_show_icon_when_disabled=0x7f050000;
+        public static final int data_connection_except_mms_show_icon_when_enabled=0x7f050001;
+        public static final int disable_charge_popups=0x7f050002;
+        public static final int enable_call_recording=0x7f050003;
+        public static final int enable_data_off_popup=0x7f050005;
+        public static final int use_3g_only=0x7f050004;
     }
     public static final class color {
-        public static final int moving_item_background=0x7f050006;
-        public static final int notification_list_shadow_top=0x7f050002;
-        public static final int notification_panel_scrim_color=0x7f050005;
-        public static final int notification_panel_solid_background=0x7f050000;
-        public static final int status_bar_recents_app_label_color=0x7f050001;
-        public static final int system_ui_opaque_background=0x7f050003;
-        public static final int system_ui_transparent_background=0x7f050004;
+        public static final int moving_item_background=0x7f060006;
+        public static final int notification_list_shadow_top=0x7f060002;
+        public static final int notification_panel_scrim_color=0x7f060005;
+        public static final int notification_panel_solid_background=0x7f060000;
+        public static final int status_bar_recents_app_label_color=0x7f060001;
+        public static final int system_ui_opaque_background=0x7f060003;
+        public static final int system_ui_transparent_background=0x7f060004;
+        public static final int transparent=0x7f060007;
     }
     public static final class dimen {
-        public static final int status_bar_icon_drawing_alpha=0x7f060000;
-        public static final int status_bar_icon_drawing_size=0x7f060001;
+        public static final int notification_panel_tools_row_height=0x7f070002;
+        public static final int status_bar_icon_drawing_alpha=0x7f070000;
+        public static final int status_bar_icon_drawing_size=0x7f070001;
     }
     public static final class drawable {
         public static final int aaa=0x7f020000;
@@ -38,35 +44,39 @@ public final class R {
         public static final int status_background=0x7f020003;
     }
     public static final class integer {
-        public static final int COLOR_BLACK=0x7f070000;
+        public static final int COLOR_BLACK=0x7f080000;
     }
     public static final class string {
-        public static final int app_description=0x7f080001;
-        public static final int app_name=0x7f080000;
-        public static final int dialog_color_picker=0x7f080018;
-        public static final int key_list=0x7f080019;
-        public static final int label_bigi=0x7f080006;
-        public static final int label_brigi=0x7f080004;
-        public static final int label_dataw=0x7f080002;
-        public static final int label_press_color=0x7f080017;
-        public static final int label_rebootaf=0x7f08000e;
-        public static final int label_transjpn=0x7f08000c;
-        public static final int label_tranz1=0x7f080008;
-        public static final int label_tranz144=0x7f08000a;
-        public static final int mesum=0x7f080010;
-        public static final int nosum=0x7f08000f;
-        public static final int quick_settings_bluetooth_off_label=0x7f080011;
-        public static final int quick_settings_rotation_locked_label=0x7f080014;
-        public static final int quick_settings_rotation_unlocked_label=0x7f080013;
-        public static final int quick_settings_wifi_off_label=0x7f080012;
-        public static final int sum_bigi=0x7f080007;
-        public static final int sum_brigi=0x7f080005;
-        public static final int sum_dataw=0x7f080003;
-        public static final int sum_transjpn=0x7f08000d;
-        public static final int sum_tranz1=0x7f080009;
-        public static final int sum_tranz144=0x7f08000b;
-        public static final int summary_test_color=0x7f080016;
-        public static final int title_test_color=0x7f080015;
+        public static final int app_description=0x7f090001;
+        public static final int app_name=0x7f090000;
+        public static final int label_bigi=0x7f090006;
+        public static final int label_brigi=0x7f090004;
+        public static final int label_dataw=0x7f090002;
+        public static final int label_heighttool=0x7f090008;
+        public static final int label_rebootaf=0x7f090010;
+        public static final int label_transjpn=0x7f09000e;
+        public static final int label_tranz1=0x7f09000a;
+        public static final int label_tranz144=0x7f09000c;
+        public static final int list_dialogtitle=0x7f090019;
+        public static final int list_summary=0x7f090018;
+        public static final int list_title=0x7f090017;
+        public static final int mesum=0x7f090012;
+        public static final int nosum=0x7f090011;
+        public static final int quick_settings_bluetooth_off_label=0x7f090013;
+        public static final int quick_settings_rotation_locked_label=0x7f090016;
+        public static final int quick_settings_rotation_unlocked_label=0x7f090015;
+        public static final int quick_settings_wifi_off_label=0x7f090014;
+        public static final int sum_bigi=0x7f090007;
+        public static final int sum_brigi=0x7f090005;
+        public static final int sum_dataw=0x7f090003;
+        public static final int sum_heighttool=0x7f090009;
+        public static final int sum_transjpn=0x7f09000f;
+        public static final int sum_tranz1=0x7f09000b;
+        public static final int sum_tranz144=0x7f09000d;
+    }
+    public static final class style {
+        public static final int SampleTheme_Light=0x7f0a0001;
+        public static final int my_theme=0x7f0a0000;
     }
     public static final class xml {
         public static final int settings=0x7f030000;

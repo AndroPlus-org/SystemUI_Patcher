@@ -9,12 +9,18 @@
     <string name="sum_brigi">通知アイコンを暗くさせないようにします。</string>
     <string name="label_bigi">通知アイコンを大きくする</string>
     <string name="sum_bigi">通知アイコンを小さくさせないようにします。</string>
+    <string name="label_heighttool">クイック設定の高さ変更</string>
+    <string name="sum_heighttool">クイック設定の高さを50.0dipにします。</string>
     <string name="label_tranz1">ステータスバーの透過修正</string>
     <string name="sum_tranz1">ステータスバーを透過したときに黒っぽくなる問題を修正します。</string>
     <string name="label_tranz144">クイック設定のタイル変更</string>
-    <string name="sum_tranz144">クイック設定の一行あたりのタイル数を6にしてタイル数制限を無制限にします。</string>
+    <string name="sum_tranz144">クイック設定の一行あたりのタイル数を変更してタイル数制限を無制限にします。</string>
     <string name="label_transjpn">日本語訳の修正</string>
     <string name="sum_transjpn">クイック設定タイルの日本語訳を修正します。</string>
+    
+    <string name="list_title">タイル数</string>
+    <string name="list_summary">クイック設定の一行あたりのタイル数を指定します。まずクイック設定のタイル変更にチェックを入れてください。</string>
+    <string name="list_dialogtitle">タイル数</string>
     
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
