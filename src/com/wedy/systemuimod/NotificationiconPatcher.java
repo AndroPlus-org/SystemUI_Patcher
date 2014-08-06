@@ -1,10 +1,12 @@
 package com.wedy.systemuimod;
 
 import android.content.res.XModuleResources;
+import android.view.View;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XSharedPreferences;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
+import de.robv.android.xposed.callbacks.XC_LayoutInflated;
 
 public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
 	private static XSharedPreferences preference = null;
@@ -59,6 +61,18 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		if(isTranz144){
 			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInARow", i);
 			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInGrid", 99);
+		}
+		boolean isNotab = preference.getBoolean("key_notab", false);
+
+		if(isNotab){
+			resparam.res.hookLayout("com.android.systemui", "layout", "somc_tabs_status_bar_expanded", new XC_LayoutInflated() {
+			    @Override
+			    public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
+			    	View clock = (View) liparam.view.findViewById(
+			    	liparam.res.getIdentifier("tabs", "id", "android"));
+			    	clock.setVisibility(View.GONE);
+			    }
+			    }); 
 		}
 		boolean isJpntr = preference.getBoolean("key_transjpn", false);
 

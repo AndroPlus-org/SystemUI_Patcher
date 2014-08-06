@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
-	<CheckBoxPreference
-	    android:key="key_dataw"
-	    android:title="@string/label_dataw"
-	    android:summary="@string/sum_dataw"
-	    android:defaultValue="false" />
+    	<PreferenceCategory
+	android:key="status_category"
+	android:title="@string/statusbar" >
+	</PreferenceCategory>
 	    <CheckBoxPreference
 	    android:key="key_brigi"
 	    android:title="@string/label_brigi"
@@ -17,15 +16,24 @@
 	    android:summary="@string/sum_bigi"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
-	    android:key="key_heighttool"
-	    android:title="@string/label_heighttool"
-	    android:summary="@string/sum_heighttool"
-	    android:defaultValue="false" />
-	    
-	    <CheckBoxPreference
 	    android:key="key_tranz1"
 	    android:title="@string/label_tranz1"
 	    android:summary="@string/sum_tranz1"
+	    android:defaultValue="false" />
+	    
+	    <PreferenceCategory
+	android:key="quick_category"
+	android:title="@string/quick" >
+	</PreferenceCategory>
+	<CheckBoxPreference
+	    android:key="key_dataw"
+	    android:title="@string/label_dataw"
+	    android:summary="@string/sum_dataw"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_heighttool"
+	    android:title="@string/label_heighttool"
+	    android:summary="@string/sum_heighttool"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_tranz144"
@@ -39,7 +47,11 @@
 	    android:dialogTitle="@string/list_dialogtitle"
 	    android:entries="@array/list_entries"
 	    android:entryValues="@array/list_entryvalues" />
-	    
+	    <CheckBoxPreference
+	    android:key="key_notab"
+	    android:title="@string/label_notab"
+	    android:summary="@string/sum_notab"
+	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_transjpn"
 	    android:title="@string/label_transjpn"
