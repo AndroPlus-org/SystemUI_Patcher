@@ -10,7 +10,7 @@
     <string name="label_bigi">Enlarge status bar icon</string>
     <string name="sum_bigi">Disable Automatic dimming.</string>
     <string name="label_tranz1">Fix transparent status bar</string>
-    <string name="sum_tranz1">Disable black layer on status bar.</string>
+    <string name="sum_tranz1">Disable black layer on status bar. DO NOT enable on 4.4 or later.</string>
     
     <string name="quick">Notification &#38; Quick Settings</string>
     <string name="label_dataw">Change notif. header button to transparent</string>

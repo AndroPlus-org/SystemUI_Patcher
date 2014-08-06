@@ -10,7 +10,7 @@
     <string name="label_bigi">通知アイコンを大きくする</string>
     <string name="sum_bigi">通知アイコンを小さくさせないようにします。</string>
     <string name="label_tranz1">ステータスバーの透過修正</string>
-    <string name="sum_tranz1">ステータスバーを透過したときに黒っぽくなる問題を修正します。</string>
+    <string name="sum_tranz1">ステータスバーを透過したときに黒っぽくなる問題を修正します。4.4以降では不要です。</string>
     
     <string name="quick">通知とクイック設定</string>
     <string name="label_dataw">通知領域のボタンを透明化</string>
