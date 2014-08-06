@@ -4,7 +4,7 @@
     <string name="app_name">Xperia SystemUI补丁</string>
     <string name="app_description">让Xperia的SystemUI.apk增强,点击这里进行设置</string>
     
-    <string name="statusbar">Statusbar</string>
+    <string name="statusbar">状态栏</string>
     <string name="label_brigi">亮度状态栏图标</string>
     <string name="sum_brigi">禁用自动亮度调节</string>
     <string name="label_bigi">放大状态栏图标</string>
@@ -12,13 +12,13 @@
     <string name="label_tranz1">修正透明状态栏</string>
     <string name="sum_tranz1">在状态栏上禁用黑色层</string>
     
-    <string name="quick">Notification &#38; Quick Settings</string>
+    <string name="quick">通知栏&#38;快速设置</string>
     <string name="label_dataw">改变通知,顶部按钮,透明</string>
     <string name="sum_dataw">通知顶部按钮透明</string>
     <string name="label_tranz144">更改快速设置</string>
     <string name="sum_tranz144">更改磁砖排列和无限项目在快速设置数量</string>
-    <string name="label_notab">Hide tabs</string>
-    <string name="sum_notab">Hide notification and quick settings tab.</string>
+    <string name="label_notab">隐藏标签</string>
+    <string name="sum_notab">隐藏通知和快速设置选项卡</string>
     <string name="label_transjpn">修复日文翻译</string>
     <string name="sum_transjpn">修复快速设置里面的日文翻译</string>
     <string name="label_heighttool">设置快速设置高度</string>
