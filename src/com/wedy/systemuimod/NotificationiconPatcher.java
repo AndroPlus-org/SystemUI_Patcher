@@ -1,6 +1,8 @@
 package com.wedy.systemuimod;
 
 import android.content.res.XModuleResources;
+import android.content.res.XResources.DimensionReplacement;
+import android.util.TypedValue;
 import android.view.View;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookZygoteInit;
@@ -11,6 +13,7 @@ import de.robv.android.xposed.callbacks.XC_LayoutInflated;
 public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
 	private static XSharedPreferences preference = null;
 	private static String MODULE_PATH = null;
+	/*private static Context mGbContext;*/
 	
 	@Override
 	public void initZygote(StartupParam startupParam) throws Throwable {
@@ -20,8 +23,12 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 	@Override
 	public void handleInitPackageResources(InitPackageResourcesParam resparam) throws Throwable {
-		String s = preference.getString("list_key", "unknown");
+		String s = preference.getString("list_key", "4");
 		int i = Integer.parseInt(s);
+		String sz3 = preference.getString("key_widthz3", "90");
+		int iz3 = Integer.parseInt(sz3);
+		String sbl = preference.getString("key_fullalert_et", "100");
+		int ibl = Integer.parseInt(sbl);
 		if (!resparam.packageName.equals("com.android.systemui"))
 			return;
 
@@ -45,6 +52,12 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		boolean isHeighttool = preference.getBoolean("key_heighttool", false);
 		if(isHeighttool){
 			resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_tools_row_height", modRes.fwd(R.dimen.notification_panel_tools_row_height));
+
+		}
+		boolean isHeighttoolz3 = preference.getBoolean("key_heighttoolz3", false);
+		if(isHeighttoolz3){
+			resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_tool_button_width",
+        		new DimensionReplacement(iz3 / resparam.res.getDisplayMetrics().scaledDensity, TypedValue.COMPLEX_UNIT_DIP));
 
 		}
 		
@@ -74,6 +87,13 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			    }
 			    }); 
 		}
+		boolean iskey_fullalert = preference.getBoolean("key_fullalert", false);
+
+		if(iskey_fullalert){
+			resparam.res.setReplacement("com.android.systemui", "integer", "config_batteryChargedAlertLevel", ibl);
+		}
+		
+		
 		boolean isJpntr = preference.getBoolean("key_transjpn", false);
 
 		if(isJpntr){
@@ -82,6 +102,18 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.systemui", "string", "quick_settings_rotation_unlocked_label", modRes.fwd(R.string.quick_settings_rotation_unlocked_label));
 			resparam.res.setReplacement("com.android.systemui", "string", "quick_settings_rotation_locked_label", modRes.fwd(R.string.quick_settings_rotation_locked_label));
 		}
+		/*boolean isWhitedog = preference.getBoolean("key_wd", false);
+		if(isWhitedog){
+			resparam.res.hookLayout("com.android.systemui", "layout", "signal_cluster_view", new XC_LayoutInflated() {
+			@Override
+			    public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
+			    	ImageView wdog = (ImageView) liparam.view.findViewById(
+			    	liparam.res.getIdentifier("mobile_signal", "id", "com.android.systemui"));
+			    	wdog.setImageDrawable(mGbContext.getResources().getDrawable(
+R.drawable.stat_sys_signal_4));
+			    }
+			    }); 
+		}*/
 
 
 	}

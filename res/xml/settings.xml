@@ -34,19 +34,36 @@
 	    android:key="key_heighttool"
 	    android:title="@string/label_heighttool"
 	    android:summary="@string/sum_heighttool"
+	    android:disableDependentsState="true"
 	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_heighttoolz3"
+	    android:title="@string/label_heighttoolz3"
+	    android:summary="@string/sum_heighttoolz3"
+	    android:dependency="key_heighttool"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="270" 
+	    android:key="key_widthz3" 
+	    android:title="@string/label_widthz3"
+	    android:summary="@string/sum_widthz3"
+	    android:dependency="key_heighttoolz3"
+	    android:inputType="number"
+	    />
 	    <CheckBoxPreference
 	    android:key="key_tranz144"
 	    android:title="@string/label_tranz144"
 	    android:summary="@string/sum_tranz144"
 	    android:defaultValue="false" />
-	    <ListPreference
-	    android:key="list_key"
+	    <EditTextPreference 
+	    android:defaultValue="4" 
+	    android:key="list_key" 
 	    android:title="@string/list_title"
 	    android:summary="@string/list_summary"
 	    android:dialogTitle="@string/list_dialogtitle"
-	    android:entries="@array/list_entries"
-	    android:entryValues="@array/list_entryvalues" />
+	    android:dependency="key_tranz144"
+	    android:inputType="number"
+	    />
 	    <CheckBoxPreference
 	    android:key="key_notab"
 	    android:title="@string/label_notab"
@@ -58,6 +75,24 @@
 	    android:summary="@string/sum_transjpn"
 	    android:defaultValue="false"/>
 	    
+	    <PreferenceCategory
+	android:key="misc_category"
+	android:title="@string/misc" >
+	</PreferenceCategory>
+	<CheckBoxPreference
+	    android:key="key_fullalert"
+	    android:title="@string/label_fullalert"
+	    android:summary="@string/sum_fullalert"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="100" 
+	    android:key="key_fullalert_et" 
+	    android:title="@string/fullalert_title"
+	    android:summary="@string/fullalert_summary"
+	    android:dependency="key_fullalert"
+	    android:inputType="number"
+	    android:maxLength="3"
+	    />
 	
 	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
             <intent android:action="android.intent.action.VIEW"

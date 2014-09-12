@@ -21,8 +21,18 @@
     <string name="sum_notab">Hide notification and quick settings tab.</string>
     <string name="label_transjpn">Fix Japanese translations</string>
     <string name="sum_transjpn">Fix Japanese translation for quick settings.</string>
-    <string name="label_heighttool">Set quicik settings height</string>
-    <string name="sum_heighttool">Set quick settings height to 50.0dip</string>
+    <string name="label_heighttool">Change quicik settings height</string>
+    <string name="sum_heighttool">Set quick settings height to 50.0dip.</string>
+    <string name="label_heighttoolz3">Change quicik settings width (for Z3 style)</string>
+    <string name="sum_heighttoolz3">Change quick settings width. Use this option if you are using Xperia Z3 style SystemUI.</string>
+    <string name="label_widthz3">Quicik settings width (px)</string>
+    <string name="sum_widthz3">Default width is 270px (90dip for xxhdpi device)</string>
+   
+   <string name="misc">Misc</string>
+    <string name="label_fullalert">Change battery charged alert level</string>
+    <string name="sum_fullalert">Change battery level for battery charged alert. Check "Play sound when battery is full" in Accessibility settings.</string>
+    <string name="fullalert_title">Battery level (0 - 100)</string>
+    <string name="fullalert_summary">Default value is 100 (fully charged)</string>
    
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>

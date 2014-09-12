@@ -4,5 +4,6 @@
     <item type="dimen" name="status_bar_icon_drawing_alpha">100%</item>
     <dimen name="status_bar_icon_drawing_size">21dip</dimen>
     <dimen name="notification_panel_tools_row_height">50.0dip</dimen>
+    <dimen name="notification_panel_tool_button_width">90dip</dimen>
     
 </resources>
