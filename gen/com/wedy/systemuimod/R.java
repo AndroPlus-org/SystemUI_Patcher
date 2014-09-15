@@ -42,8 +42,7 @@ public final class R {
         public static final int aaa=0x7f020000;
         public static final int ic_launcher=0x7f020001;
         public static final int ic_notify_button_bg=0x7f020002;
-        public static final int stat_sys_signal_4=0x7f020003;
-        public static final int status_background=0x7f020004;
+        public static final int status_background=0x7f020003;
     }
     public static final class integer {
         public static final int COLOR_BLACK=0x7f080000;
