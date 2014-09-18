@@ -5,12 +5,17 @@ import android.content.res.XResources.DimensionReplacement;
 import android.util.TypedValue;
 import android.view.View;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
+import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
+import de.robv.android.xposed.XC_MethodReplacement;
 import de.robv.android.xposed.XSharedPreferences;
+import de.robv.android.xposed.XposedBridge;
+import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
 import de.robv.android.xposed.callbacks.XC_LayoutInflated;
+import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
-public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources {
+public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources, IXposedHookLoadPackage {
 	private static XSharedPreferences preference = null;
 	private static String MODULE_PATH = null;
 	/*private static Context mGbContext;*/
@@ -102,20 +107,30 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.systemui", "string", "quick_settings_rotation_unlocked_label", modRes.fwd(R.string.quick_settings_rotation_unlocked_label));
 			resparam.res.setReplacement("com.android.systemui", "string", "quick_settings_rotation_locked_label", modRes.fwd(R.string.quick_settings_rotation_locked_label));
 		}
-		/*boolean isWhitedog = preference.getBoolean("key_wd", false);
-		if(isWhitedog){
-			resparam.res.hookLayout("com.android.systemui", "layout", "signal_cluster_view", new XC_LayoutInflated() {
-			@Override
-			    public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
-			    	ImageView wdog = (ImageView) liparam.view.findViewById(
-			    	liparam.res.getIdentifier("mobile_signal", "id", "com.android.systemui"));
-			    	wdog.setImageDrawable(mGbContext.getResources().getDrawable(
-R.drawable.stat_sys_signal_4));
-			    }
-			    }); 
-		}*/
-
-
+		
 	}
+
+
+	@Override
+	public void handleLoadPackage(LoadPackageParam lpparam) throws Throwable {
+
+		if (!lpparam.packageName.equals("com.android.systemui"))
+			return;
+	boolean isNosim = preference.getBoolean("key_nosim", false);
+	if(isNosim){
+		try {
+			XposedHelpers.findAndHookMethod(
+					"com.android.systemui.statusbar.policy.NetworkController",
+					lpparam.classLoader,
+					"updateSimIcon",
+					XC_MethodReplacement.DO_NOTHING
+			);
+		} catch (Throwable t) {
+			XposedBridge.log(t.getMessage());
+		}
+		}
+	};
+
+
 
 }

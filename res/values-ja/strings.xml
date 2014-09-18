@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">SystemUI Patcher</string>
+    <string name="app_name" translatable="false">SystemUI Patcher</string>
     <string name="app_description">XperiaのSystemUI.apkを変更します。ここをタップすると設定が出来ます。</string>
-    
     <string name="statusbar">ステータスバー</string>
     <string name="label_brigi">通知アイコンを明るくする</string>
     <string name="sum_brigi">通知アイコンを暗くさせないようにします。</string>
@@ -11,13 +9,11 @@
     <string name="sum_bigi">通知アイコンを小さくさせないようにします。</string>
     <string name="label_tranz1">ステータスバーの透過修正</string>
     <string name="sum_tranz1">ステータスバーを透過したときに黒っぽくなる問題を修正します。4.4以降では不要です。</string>
-    
+    <string name="label_nosim">SIMなしアイコンを隠す</string>
+    <string name="sum_nosim">SIMを挿入していないときに表示されるアイコンを隠します。</string>
     <string name="quick">通知とクイック設定</string>
     <string name="label_dataw">通知領域のボタンを透明化</string>
     <string name="sum_dataw">通知領域のボタンを透明化します。</string>
-    <string name="list_title">タイル数</string>
-    <string name="list_summary">クイック設定の一行あたりのタイル数を指定します。</string>
-    <string name="list_dialogtitle">タイル数</string>
     <string name="label_tranz144">クイック設定のタイル数変更</string>
     <string name="sum_tranz144">クイック設定の一行あたりのタイル数を変更してタイル数制限を無制限にします。</string>
     <string name="label_notab">タブを非表示にする</string>
@@ -30,14 +26,15 @@
     <string name="sum_heighttoolz3">クイック設定タイルの幅を変更します。Xperia Z3スタイルのSystemUIを使っている場合はこのオプションを使ってください。</string>
     <string name="label_widthz3">クイック設定タイルの幅 (px)</string>
     <string name="sum_widthz3">デフォルトの幅は270pxです。(xxhdpi端末での90dip)</string>
-    
     <string name="misc">その他</string>
     <string name="label_fullalert">音を鳴らすバッテリー%の変更</string>
     <string name="sum_fullalert">どの%の時点を満充電とみなして音を鳴らすか設定します。ユーザー補助で「満充電時に音を鳴らす」にチェックを入れてください。</string>
     <string name="fullalert_title">バッテリー% (0 - 100)</string>
     <string name="fullalert_summary">デフォルトは100です。</string>
-    
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
     <string name="mesum">"@WedyDQ10"</string>
+    <string name="list_title">タイル数</string>
+    <string name="list_summary">クイック設定の一行あたりのタイル数を指定します。</string>
+    <string name="list_dialogtitle">タイル数</string>
 </resources>

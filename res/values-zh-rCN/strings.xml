@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Xperia SystemUI补丁</string>
+    <string name="app_name" translatable="false">Xperia SystemUI补丁</string>
     <string name="app_description">让Xperia的SystemUI.apk增强,点击这里进行设置</string>
-    
     <string name="statusbar">状态栏</string>
     <string name="label_brigi">亮度状态栏图标</string>
     <string name="sum_brigi">禁用自动亮度调节</string>
@@ -11,7 +9,6 @@
     <string name="sum_bigi">禁用自动亮度调节</string>
     <string name="label_tranz1">修正透明状态栏</string>
     <string name="sum_tranz1">在状态栏上禁用黑色层</string>
-    
     <string name="quick">通知栏&#38;快速设置</string>
     <string name="label_dataw">改变通知,顶部按钮,透明</string>
     <string name="sum_dataw">通知顶部按钮透明</string>
@@ -23,16 +20,13 @@
     <string name="sum_transjpn">修复快速设置里面的日文翻译</string>
     <string name="label_heighttool">设置快速设置高度</string>
     <string name="sum_heighttool">设置快速设置高度在50dip</string>
-   
     <string name="label_rebootaf">注</string>
     <string name="nosum">您可能需要重新启动以使更改生效</string>
     <string name="mesum">"@WedyDQ10"</string>
-    
-    <string name="quick_settings_bluetooth_off_label">蓝牙已关闭</string>
-    <string name="quick_settings_wifi_off_label">Wi-Fi已关闭</string>
-    <string name="quick_settings_rotation_unlocked_label">屏幕自动旋转</string>
-    <string name="quick_settings_rotation_locked_label">屏幕自动旋转已关闭</string>
-    
+    <string name="quick_settings_bluetooth_off_label" translatable="false">蓝牙已关闭</string>
+    <string name="quick_settings_wifi_off_label" translatable="false">Wi-Fi已关闭</string>
+    <string name="quick_settings_rotation_unlocked_label" translatable="false">屏幕自动旋转</string>
+    <string name="quick_settings_rotation_locked_label" translatable="false">屏幕自动旋转已关闭</string>
     <string name="list_title">磁砖数量</string>
     <string name="list_summary">设置快速设置磁砖单排显示数量,需要先启用更改快速设置</string>
     <string name="list_dialogtitle">数量</string>

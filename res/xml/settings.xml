@@ -20,6 +20,11 @@
 	    android:title="@string/label_tranz1"
 	    android:summary="@string/sum_tranz1"
 	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_nosim"
+	    android:title="@string/label_nosim"
+	    android:summary="@string/sum_nosim"
+	    android:defaultValue="false" />
 	    
 	    <PreferenceCategory
 	android:key="quick_category"
