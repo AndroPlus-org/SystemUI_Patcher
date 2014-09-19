@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">SystemUI Patcher</string>
     <string name="app_description">Mod SystemUI.apk for Xperia. Tap here to configure settings.</string>
     <string name="statusbar">Statusbar</string>
     <string name="label_brigi">Brighten status bar icon</string>
@@ -34,10 +33,6 @@
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
     <string name="mesum">"@WedyDQ10"</string>
-    <string name="quick_settings_bluetooth_off_label" translatable="false">Bluetoothオフ</string>
-    <string name="quick_settings_wifi_off_label" translatable="false">Wi-Fiオフ</string>
-    <string name="quick_settings_rotation_unlocked_label" translatable="false">画面の自動回転オン</string>
-    <string name="quick_settings_rotation_locked_label" translatable="false">画面の自動回転オフ</string>
     <string name="list_title">The number of tiles</string>
     <string name="list_summary">Specify the number of tiles to show in a row of the quick settings. Enable Change quick settings first.</string>
     <string name="list_dialogtitle">Number</string>

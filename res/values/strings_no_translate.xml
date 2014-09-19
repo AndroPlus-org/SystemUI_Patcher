@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SystemUI Patcher</string>
+    <string name="quick_settings_bluetooth_off_label" translatable="false">Bluetoothオフ</string>
+    <string name="quick_settings_wifi_off_label" translatable="false">Wi-Fiオフ</string>
+    <string name="quick_settings_rotation_unlocked_label" translatable="false">画面の自動回転オン</string>
+    <string name="quick_settings_rotation_locked_label" translatable="false">画面の自動回転オフ</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Modifiziere deine SystemUI.apk. Drücke hier für die Einstellungen</string>
+    <string name="statusbar">Statusleiste</string>
+    <string name="label_brigi">Helle Statusleisten icons.</string>
+    <string name="sum_brigi">Deaktiviert automatisches Dimmen.</string>
+    <string name="label_bigi">Vergrößert die Statusleisten icons.</string>
+    <string name="sum_bigi">Deaktiviert automatisches Dimmen.</string>
+    <string name="label_tranz1">Verbessert die transparente Statusleiste</string>
+    <string name="sum_tranz1">Deaktiviert den schwarzen Schatten der Statusleiste: NICHT FÜR ANDROID 4.4+ GEEIGNET!</string>
+    <string name="label_nosim">Verstecke "Keine SIM" Icon</string>
+    <string name="sum_nosim">Verstecke "Keine SIM" Icon wenn du keine SIM im Gerät hast.</string>
+    <string name="quick">Benachrichtigung &amp; Schnelleinstellung</string>
+    <string name="label_dataw">Wechselt den benachrichtigungs Button transparent</string>
+    <string name="sum_dataw">Macht den benachrichtigungs Button transparent</string>
+    <string name="label_tranz144">Schnelleinstellungen</string>
+    <string name="sum_tranz144">Ändert die Anzahl der Schaltflächen und unbegrenzte Anzahl an Schaltflächen in den Schnelleinstellungen.</string>
+    <string name="label_notab">Verstecke Tabs</string>
+    <string name="sum_notab">Verstecke die Benachrichtigungs- und Schnelleinstellungstabs</string>
+    <string name="label_transjpn">Japanische übersetzung</string>
+    <string name="sum_transjpn">Japanische übersetzung für die Schnelleinstellung.</string>
+    <string name="label_heighttool">Ändert die Höhe der Schnellschaltflächen</string>
+    <string name="sum_heighttool">Setze höhe der Schnellschaltflächen auf 50.0dip.</string>
+    <string name="label_heighttoolz3">Ändert die Breite der Schnelleinstellungen (für Z3 Style)</string>
+    <string name="sum_heighttoolz3">Ändert die Breite der Schnelleinstellungen. Benutze diese Option falls du eine portierte Z3 SystemIU benutzt.</string>
+    <string name="label_widthz3">Schnelleinstellungsbreite auf</string>
+    <string name="sum_widthz3">Standartbreite ist 270px (90dip für XXHDPI Geräte)</string>
+    <string name="misc">Sonstiges</string>
+    <string name="label_fullalert">Ändere die "Batterie leer" Warnung</string>
+    <string name="sum_fullalert">Ändere den "Batterie leer" Warnungslevel. Aktiviere dazu die "Benachrichtigung bei vollem Akku" in den Einstellungen für EIngabehilfen.</string>
+    <string name="fullalert_title">Batterie level (0-100)</string>
+    <string name="fullalert_summary">Standardwert ist 100 (Voll geladen)</string>
+    <string name="label_rebootaf">Notiz</string>
+    <string name="nosum">Einstellungen werden erst nach einem Neustart aktiv.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    <string name="list_title">Anzahl der Schaltflächen</string>
+    <string name="list_summary">Bestimme die Anzahl der Schaltflächen in den Schnelleinstellungen. Aktiviere zuerst die "Schnelleinstellungen".</string>
+    <string name="list_dialogtitle">Anzahl</string>
+</resources>

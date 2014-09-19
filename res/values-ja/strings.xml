@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">SystemUI Patcher</string>
     <string name="app_description">XperiaのSystemUI.apkを変更します。ここをタップすると設定が出来ます。</string>
     <string name="statusbar">ステータスバー</string>
     <string name="label_brigi">通知アイコンを明るくする</string>
