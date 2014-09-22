@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Mod SystemUI.apk para Xperia. Toca aqui para configurar.</string>
+    <string name="statusbar">Barra de estado</string>
+    <string name="label_brigi">Icono de brillo en barra de estado</string>
+    <string name="sum_brigi">Deshabilitar apagado de luz automático</string>
+    <string name="label_bigi">Agrandar icono de barra de estado</string>
+    <string name="sum_bigi">Deshabilitar apagado de luz automático</string>
+    <string name="label_tranz1">Fijar barra de estado transparente</string>
+    <string name="sum_tranz1">Deshabilitar capa negra en la barra de estado. NO habilitar en 4.4 o posterior.</string>
+    <string name="label_nosim">Ocultar icono de No SIM</string>
+    <string name="sum_nosim">Ocultar icono de No SIM cuando no haya una SIM.</string>
+    <string name="quick">Notificación &#38; Ajustes Rápidos</string>
+    <string name="label_dataw">Cambiar a transparente el botón de notificaciones.</string>
+    <string name="sum_dataw">Hacer transparente el botón de notificaciones.</string>
+    <string name="label_tranz144">Cambiar ajustes rápidos</string>
+    <string name="sum_tranz144">Cambiar el número de elementos por columna e ítems ilimitados en ajustes rápidos.</string>
+    <string name="label_notab">Ocultar pestañas</string>
+    <string name="sum_notab">Ocultar pestaña de notificación y ajustes rápidos.</string>
+    <string name="label_transjpn">Fijar traducciones Japonesas</string>
+    <string name="sum_transjpn">Fijar traduccion Japonesa para ajustes rápidos.</string>
+    <string name="label_heighttool">Cambiar tamaño de ajustes rápidos</string>
+    <string name="sum_heighttool">Establecer altura de ajustes rápidos a 50.0dip</string>
+    <string name="label_heighttoolz3">Cambiar el ancho de ajustes rápidos (para estilo Z3)</string>
+    <string name="sum_heighttoolz3">Cambiar ancho de ajustes rápidos. Usa esta opción si estás usando un SystemUI con estilo de Xperia Z3</string>
+    <string name="label_widthz3">Ancho de ajustes rápidos (px)</string>
+    <string name="sum_widthz3">Ancho por defecto es 270px (90dip para dispositivos xxhdpi)</string>
+    <string name="misc">Miscelania</string>
+    <string name="label_fullalert">Cambiar el nivel de alerta cuando la batería esté cargada</string>
+    <string name="sum_fullalert">Cambiar el nivel de batería para la alerta cuando la batería esté cargada. Selecciona "Reproducir sonido cuando la batería este cargada" en Ajustes de accesibilidad.</string>
+    <string name="fullalert_title">Nivel de bateria (0 - 100)</string>
+    <string name="fullalert_summary">El valor por defecto es 100 (Completamente cargada)</string>
+    <string name="label_rebootaf">Nota</string>
+    <string name="nosum">Necesita reiniciar para que los cambios tengan efecto.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    <string name="list_title">Número de elementos</string>
+    <string name="list_summary">Especifica el número de elementos a mostrar por columna en los ajustes rápidos. Habilitar primero Cambiar ajustes rápidos.</string>
+    <string name="list_dialogtitle">Número</string>
+</resources>

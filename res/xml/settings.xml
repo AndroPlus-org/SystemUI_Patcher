@@ -41,6 +41,12 @@
 	    android:summary="@string/sum_heighttool"
 	    android:disableDependentsState="true"
 	    android:defaultValue="false" />
+	    <EditTextPreference
+	    android:defaultValue="100.0"
+	    android:key="key_heightnum"
+	    android:title="@string/label_heightnum"
+	    android:summary="@string/sum_heightnum"
+	    android:inputType="numberDecimal"/>
 	    <CheckBoxPreference
 	    android:key="key_heighttoolz3"
 	    android:title="@string/label_heighttoolz3"
@@ -73,7 +79,21 @@
 	    android:key="key_notab"
 	    android:title="@string/label_notab"
 	    android:summary="@string/sum_notab"
+	    android:disableDependentsState="true"
 	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_movequick"
+	    android:title="@string/label_movequick"
+	    android:summary="@string/sum_movequick"
+	    android:dependency="key_notab"
+	    android:defaultValue="false" />
+	    <EditTextPreference
+	    android:defaultValue="0.8"
+	    android:key="key_lineheight"
+	    android:title="@string/label_lineheight"
+	    android:summary="@string/sum_lineheight"
+	    android:dependency="key_movequick"
+	    android:inputType="numberDecimal"/>
 	    <CheckBoxPreference
 	    android:key="key_transjpn"
 	    android:title="@string/label_transjpn"

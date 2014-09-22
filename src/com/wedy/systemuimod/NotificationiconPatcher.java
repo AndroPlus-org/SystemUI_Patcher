@@ -4,6 +4,11 @@ import android.content.res.XModuleResources;
 import android.content.res.XResources.DimensionReplacement;
 import android.util.TypedValue;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
@@ -54,19 +59,6 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.systemui", "dimen", "status_bar_icon_drawing_size", modRes.fwd(R.dimen.status_bar_icon_drawing_size));
 
 		}
-		boolean isHeighttool = preference.getBoolean("key_heighttool", false);
-		if(isHeighttool){
-			resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_tools_row_height", modRes.fwd(R.dimen.notification_panel_tools_row_height));
-
-		}
-		boolean isHeighttoolz3 = preference.getBoolean("key_heighttoolz3", false);
-		if(isHeighttoolz3){
-			resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_tool_button_width",
-        		new DimensionReplacement(iz3 / resparam.res.getDisplayMetrics().scaledDensity, TypedValue.COMPLEX_UNIT_DIP));
-
-		}
-		
-		
 		
 		boolean isTranz1 = preference.getBoolean("key_tranz1", false);
 		if(isTranz1){
@@ -74,12 +66,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			resparam.res.setReplacement("com.android.systemui", "color", "system_ui_transparent_background", 0x00000000);
 
 		}
-		boolean isTranz144 = preference.getBoolean("key_tranz144", false);
-
-		if(isTranz144){
-			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInARow", i);
-			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInGrid", 99);
-		}
+		
 		boolean isNotab = preference.getBoolean("key_notab", false);
 
 		if(isNotab){
@@ -92,12 +79,58 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			    }
 			    }); 
 		}
+		boolean isMovequick = preference.getBoolean("key_movequick", false);
+
+		if(isMovequick){
+			resparam.res.hookLayout("com.android.systemui", "layout", "super_status_bar", new XC_LayoutInflated() {
+	            @SuppressWarnings("deprecation")
+				@Override
+	            public void handleLayoutInflated(final LayoutInflatedParam liparam)
+	                    throws Throwable {
+	                liparam.view.findViewById(liparam.res.getIdentifier("tabs", "id", "android")).setVisibility(View.GONE);
+		            FrameLayout tab = (FrameLayout) liparam.view.findViewById(liparam.res.getIdentifier("quick_settings_tab","id","com.android.systemui"));
+		            LinearLayout quick_tools = (LinearLayout) liparam.view.findViewById(liparam.res.getIdentifier("tools_rows","id","com.android.systemui"));
+		            tab.removeView(quick_tools);
+		            LinearLayout notification_tab = (LinearLayout) liparam.view.findViewById(liparam.res.getIdentifier("notifications_tab","id","com.android.systemui"));
+	                float density = liparam.res.getDisplayMetrics().density;
+		            ImageView line = new ImageView(liparam.view.getContext());
+		            line.setBackgroundColor(0x0ffffffff);
+		            ImageView line2 = new ImageView(liparam.view.getContext());
+		            line2.setBackgroundColor(0x0ffffffff);
+		            float lf = Float.parseFloat(preference.getString("key_lineheight", "0.8"));
+		            LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, (int)(lf * density + 0.5f));
+		            LayoutParams lp2 = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, (int)(lf * density + 0.5f));
+	                lp.setMargins(0, (int) (20.0f * density + 0.5f), 0, 0);
+		            notification_tab.addView(line, 0, lp);
+		            notification_tab.addView(quick_tools, 0);
+		            notification_tab.addView(line2, 0, lp2);
+		}
+		});
+		}
+		boolean isHeighttool = preference.getBoolean("key_heighttool", false);
+		if(isHeighttool){
+			float f = Float.parseFloat(preference.getString("key_heightnum", "100.0"));
+resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_tools_row_height", new DimensionReplacement(f,TypedValue.COMPLEX_UNIT_DIP));
+
+		}
+		boolean isHeighttoolz3 = preference.getBoolean("key_heighttoolz3", false);
+		if(isHeighttoolz3){
+			resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_tool_button_width",
+        		new DimensionReplacement(iz3 / resparam.res.getDisplayMetrics().scaledDensity, TypedValue.COMPLEX_UNIT_DIP));
+
+		}
+		
+		boolean isTranz144 = preference.getBoolean("key_tranz144", false);
+
+		if(isTranz144){
+			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInARow", i);
+			resparam.res.setReplacement("com.android.systemui", "integer", "config_maxToolItemsInGrid", 99);
+		}
 		boolean iskey_fullalert = preference.getBoolean("key_fullalert", false);
 
 		if(iskey_fullalert){
 			resparam.res.setReplacement("com.android.systemui", "integer", "config_batteryChargedAlertLevel", ibl);
 		}
-		
 		
 		boolean isJpntr = preference.getBoolean("key_transjpn", false);
 
