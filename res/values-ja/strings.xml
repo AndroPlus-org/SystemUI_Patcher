@@ -10,6 +10,8 @@
     <string name="sum_tranz1">ステータスバーを透過したときに黒っぽくなる問題を修正します。4.4以降では不要です。</string>
     <string name="label_nosim">SIMなしアイコンを隠す</string>
     <string name="sum_nosim">SIMを挿入していないときに表示されるアイコンを隠します。</string>
+    <string name="label_wifimerge">Wi-Fiアイコンとアンテナピクトを統合する</string>
+    <string name="sum_wifimerge">Wi-Fiアイコンとアンテナピクトを統合します。棒状のWi-Fiアイコンが、アンテナピクトの右側に表示されます。</string>
     <string name="quick">通知とクイック設定</string>
     <string name="label_dataw">通知領域のボタンを透明化</string>
     <string name="sum_dataw">通知領域のボタンを透明化します。</string>

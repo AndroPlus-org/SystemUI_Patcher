@@ -10,6 +10,8 @@
     <string name="sum_tranz1">Disable black layer on status bar. DO NOT enable on 4.4 or later.</string>
     <string name="label_nosim">Hide No SIM icon</string>
     <string name="sum_nosim">Hide No SIM icon when you have no SIM.</string>
+    <string name="label_wifimerge">Merge Wi-Fi icon with mobile combo</string>
+    <string name="sum_wifimerge">Merge Wi-Fi icon with mobile signal icon. Wi-Fi icon will be shown on the right side of the mobile signal icon.</string>
     <string name="quick">Notification &#38; Quick Settings</string>
     <string name="label_dataw">Change notif. header button to transparent</string>
     <string name="sum_dataw">Make notification header button transparent.</string>

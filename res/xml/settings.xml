@@ -25,6 +25,11 @@
 	    android:title="@string/label_nosim"
 	    android:summary="@string/sum_nosim"
 	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_wifimerge"
+	    android:title="@string/label_wifimerge"
+	    android:summary="@string/sum_wifimerge"
+	    android:defaultValue="false" />
 	    
 	    <PreferenceCategory
 	android:key="quick_category"
