@@ -10,6 +10,8 @@
     <string name="sum_tranz1">在状态栏上禁用黑色层,在4.4或更高版本不要启用</string>
     <string name="label_nosim">隐藏无SIM卡图标</string>
     <string name="sum_nosim">当您没有插入SIM卡时将隐藏无SIM卡图标</string>
+	<string name="label_wifimerge">WiFi图标与移动信号合并</string>
+    <string name="sum_wifimerge">WiFi图标与移动信号图标合并,移动信号图标右侧将会显示WiFi图标</string>
     <string name="quick">通知栏&#38;快速设置</string>
     <string name="label_dataw">改变通知栏,标题按钮透明度</string>
     <string name="sum_dataw">让通知栏和标题按钮透明</string>
