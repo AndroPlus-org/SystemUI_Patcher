@@ -199,6 +199,25 @@ resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel
 			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_signal_3_fully", modRes.fwd(R.drawable.stat_sys_signal_3_fully));
 			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_signal_4", modRes.fwd(R.drawable.stat_sys_signal_4));
 			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_signal_4_fully", modRes.fwd(R.drawable.stat_sys_signal_4_fully));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_signal_in", modRes.fwd(R.drawable.stat_sys_signal_in));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_signal_inout", modRes.fwd(R.drawable.stat_sys_signal_inout));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_signal_out", modRes.fwd(R.drawable.stat_sys_signal_out));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_signal_null", modRes.fwd(R.drawable.stat_sys_signal_null));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_connected_1x", modRes.fwd(R.drawable.stat_sys_data_connected_1x));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_connected_3g", modRes.fwd(R.drawable.stat_sys_data_connected_3g));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_connected_4g", modRes.fwd(R.drawable.stat_sys_data_connected_4g));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_connected_e", modRes.fwd(R.drawable.stat_sys_data_connected_e));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_connected_g", modRes.fwd(R.drawable.stat_sys_data_connected_g));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_connected_h", modRes.fwd(R.drawable.stat_sys_data_connected_h));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_1x", modRes.fwd(R.drawable.stat_sys_data_fully_connected_1x));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_3g", modRes.fwd(R.drawable.stat_sys_data_fully_connected_3g));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_4g", modRes.fwd(R.drawable.stat_sys_data_fully_connected_4g));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_dc", modRes.fwd(R.drawable.stat_sys_data_fully_connected_dc));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_e", modRes.fwd(R.drawable.stat_sys_data_fully_connected_e));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_g", modRes.fwd(R.drawable.stat_sys_data_fully_connected_g));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_h", modRes.fwd(R.drawable.stat_sys_data_fully_connected_h));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_h_plus", modRes.fwd(R.drawable.stat_sys_data_fully_connected_h_plus));
+			resparam.res.setReplacement("com.android.systemui", "drawable", "stat_sys_data_fully_connected_lte", modRes.fwd(R.drawable.stat_sys_data_fully_connected_lte));
 		}
 		
 		// Fix Japanese translations

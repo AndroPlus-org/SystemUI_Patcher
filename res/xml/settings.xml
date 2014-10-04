@@ -97,7 +97,6 @@
 	    android:key="key_lineheight"
 	    android:title="@string/label_lineheight"
 	    android:summary="@string/sum_lineheight"
-	    android:dependency="key_movequick"
 	    android:inputType="numberDecimal"/>
 	    <CheckBoxPreference
 	    android:key="key_transjpn"
