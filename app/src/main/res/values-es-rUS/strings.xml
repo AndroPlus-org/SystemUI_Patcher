@@ -19,7 +19,7 @@
     <string name="sum_notab">Ocultar pestaña de notificación y ajustes rápidos.</string>
     <string name="label_movequick">Mover ajustes rápidos a la pestaña de notificación</string>
     <string name="sum_movequick">Mover los objetos de los ajustes rápdios a la pestaña de notificiaciones y ocultar perstañas. Usa esta opción si estás usando la SystemUI con estilo del Z2</string>
-    <string name="label_transjpn">Fijar traducciones Japonesas</string>
+    <string name="label_transjpn">Arreglar traducciones Japonesas</string>
     <string name="sum_transjpn">Fijar traduccion Japonesa para ajustes rápidos.</string>
     <string name="label_heighttool">Cambiar tamaño de ajustes rápidos</string>
     <string name="sum_heighttool">Cambiar el alto de los ajustes rápidos. Usa esta opción si estás usando la SystemUI con estilo del Z2</string>

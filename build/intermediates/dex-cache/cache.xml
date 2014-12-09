@@ -2,28 +2,28 @@
 <pre-dex-items>
 
     <item
-        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-9b68fa5de2de23d0abf5d20ba3e0a64d64a35d82.jar"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-364b05ce0b59eacdf2be1a232e4526bac07e7df8.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
         jumboMode="false"
-        revision="20.0.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
     <item
-        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-ee250ca8a39ea71011617622c1ec2cb0a943f8cd.jar"
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-e3e57bc24acc91e2506e281a398bc448916d94ff.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
         jumboMode="false"
-        revision="20.0.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
     <item
-        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-1676dd9804f8501f8004f3ca579d806cfdf59971.jar"
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\internal_impl-21.0.0-c3cfe708320cdc7d8320996d4ed82ffdda2c79ee.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
         jumboMode="false"
-        revision="20.0.0"
-        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
     <item
-        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-9833b6d6103da09a063d7d166554d3e4d5e9e6cf.jar"
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\support-annotations-21.0.0-942a00eae9e94bbf9436a50907fead2fcde562a3.jar"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
         jumboMode="false"
-        revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        revision="21.1.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
 
 </pre-dex-items>

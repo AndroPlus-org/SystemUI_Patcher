@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/aaa" />
+    <item android:drawable="@drawable/aaa" />
+</selector><!-- From: file:/D:/myuser/document/GitHub/SystemUI_Patcher/app/src/main/res/drawable/ic_notify_button_bg.xml -->

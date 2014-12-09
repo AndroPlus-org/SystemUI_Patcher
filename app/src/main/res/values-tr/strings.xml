@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Mod SystemUI.apk Xperia içindir.Ayarları yapılandırmak için buraya dokunun.</string>
+    <string name="statusbar">Durum Çubuğu</string>
+    <string name="label_brigi">Durum çubuğu simgesini aydınlatın</string>
+    <string name="sum_brigi">Otomatik karartmayı devre dışı bırak</string>
+    <string name="label_bigi">Durum çubuğu ikonlarını büyüt</string>
+    <string name="sum_bigi">Otomatik karartmayı devre dışı bırak</string>
+    <string name="label_tranz1">Şeffaf durum çubuğunu düzelt</string>
+    <string name="sum_tranz1">Durum çubuğundaki siyah katmanı devre dışı bırak.4.4 ve sonrasında aktif ETMEYİN</string>
+    <string name="quick">Bildirim &#38; Hızlı Ayarlar</string>
+    <string name="label_dataw">Şeffaf bildirim butonunu değiştir.</string>
+    <string name="sum_dataw">Bildirim başlığını şeffaf yap.</string>
+    <string name="label_tranz144">Hızlı ayarları değiştir.</string>
+    <string name="label_notab">Sekmeleri gizle</string>
+    <string name="sum_notab">Bildirim ve hızlı ayarlar sekmesini gizle.</string>
+    <string name="label_transjpn">Japonca çeviriyi düzelt.</string>
+    <string name="sum_transjpn">Hızlı ayarlar için Japonca çeviriyi düzelt.</string>
+    <string name="label_heighttool">Hızlı ayarlar yüksekliğini değiştir.</string>
+    <string name="sum_heighttool">Hızlı ayarlar yüksekliğini değiştir.Eğer Z2 stilinde SystemUI kullanmak istersen işaretle</string>
+    <string name="label_heighttoolz3">Hızlı ayarlar genişliğini değiştir (Z3 stili için)</string>
+</resources>

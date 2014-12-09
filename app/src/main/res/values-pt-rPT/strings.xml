@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Modificador do SystemUI.apk para Xperia. Toca aqui para configurar as definições.</string>
+    <string name="statusbar">Barra de estado</string>
+    <string name="label_brigi">Clarear o ícone da barra de estado</string>
+    <string name="sum_brigi">Desativar o brilho automático.</string>
+    <string name="label_bigi">Aumentar o ícone da barra de estado</string>
+    <string name="sum_bigi">Desativar o brilho automático.</string>
+    <string name="label_tranz1">Corrigir a barra de estado transparente</string>
+    <string name="sum_tranz1">Desativar a camada preta da barra de estado. NÃO USAR em 4.4 ou mais recente.</string>
+    <string name="label_nosim">Esconder ícone de Sem SIM</string>
+    <string name="sum_nosim">Esconder ícone de Sem SIM quando não houver cartão SIM.</string>
+    <string name="label_wifimerge">Juntar o ícone do Wi-Fi com o do sinal da rede</string>
+    <string name="sum_wifimerge">Juntar o ícone do Wi-Fi com o do Tráfego Móvel. O ícone do Wi-Fi vai ser mostrado no lado direito do ícone do sinal da rede.</string>
+    <string name="quick">Notificação &#38; Definições Rápidas</string>
+    <string name="label_dataw">Mudar o botão do cabeçalho das notificações para transparente</string>
+    <string name="sum_dataw">Alterar o botão do cabeçalho das notificações para transparente.</string>
+    <string name="label_tranz144">Alterar definições rápidas</string>
+    <string name="sum_tranz144">Alterar o número de ícones numa linha e itens ilimitados nas definições rápidas.</string>
+    <string name="label_notab">Ocultar separadores</string>
+    <string name="sum_notab">Esconder os separadores das notificações e definições rápidas.</string>
+    <string name="label_movequick">Mover as definições rápidas para o separador das notificações</string>
+    <string name="sum_movequick">Mover os ícones das definições rápidas para o separador das notificaçoes e esconder os separadores. Usa esta opção se estiveres a usar o SystemUI ao estilo do Z2.</string>
+    <string name="label_transjpn">Corrigir traduções japonesas</string>
+    <string name="sum_transjpn">Corrigir traduções japonesas nas definições rápidas.</string>
+    <string name="label_heighttool">Alterar a altura das definições rápidas</string>
+    <string name="sum_heighttool">Alterar a altura das definições rápidas. Usa esta opção se estiveres a usar o SystemUI ao estilo do Z2.</string>
+    <string name="label_heightnum">Altura das definições rápidas (dp)</string>
+    <string name="sum_heightnum">Por omissão é 100.0</string>
+    <string name="label_heighttoolz3">Alterar a largura das definições rápidas (Estilo Z3)</string>
+    <string name="sum_heighttoolz3">Alterar a largura das definições rápidas. Usa esta opção se estiveres a usar o SystemUI ao estilo do Z3.</string>
+    <string name="label_widthz3">Largura das definições rápidas (px)</string>
+    <string name="sum_widthz3">Largura por omissão são 270px (90ppp para dispositivos XXHDPI)</string>
+    <string name="label_lineheight">Altura da borda (dp)</string>
+    <string name="sum_lineheight">Por omissão é 0.8</string>
+    <string name="misc">Outros</string>
+    <string name="label_fullalert">Alterar o aviso de bateria carregada</string>
+    <string name="sum_fullalert">Alterar o nível da bateria para o alerta de bateria carregada. Ativa "Tocar som quando bateria estiver completa" nas Opções de Acessibilidade.</string>
+    <string name="fullalert_title">Nível de bateria (0 - 100)</string>
+    <string name="fullalert_summary">Valor por omissão é 100 (carga total)</string>
+    <string name="label_rebootaf">Nota</string>
+    <string name="nosum">Pode ser necessário reiniciar para as alterações funcionarem.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    <string name="list_title">Número de ícones</string>
+    <string name="list_summary">Especificar o número a mostrar de ícones numa linha de definições rápidas. Ativar a alteração das definições rápidas primeiro.</string>
+    <string name="list_dialogtitle">Número</string>
+</resources>

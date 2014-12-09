@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/myuser/document/GitHub/SystemUI_Patcher/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values-es-rUS/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar a la página principal"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Elige una aplicación."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Eliminar la consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Búsqueda"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <!-- From: file:/D:/myuser/document/GitHub/SystemUI_Patcher/app/src/main/res/values-es-rUS/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">Mod SystemUI.apk para Xperia. Toca aqui para configurar.</string>
+    <string name="fullalert_summary">El valor por defecto es 100 (Completamente cargada)</string>
+    <string name="fullalert_title">Nivel de bateria (0 - 100)</string>
+    <string name="label_bigi">Agrandar icono de barra de estado</string>
+    <string name="label_brigi">Aclarar icono de barra de estado</string>
+    <string name="label_dataw">Cambiar a transparente el botón de notificaciones.</string>
+    <string name="label_fullalert">Cambiar el nivel de alerta cuando la batería esté cargada</string>
+    <string name="label_heightnum">Altura de los ajustes rápidos (dp)</string>
+    <string name="label_heighttool">Cambiar tamaño de ajustes rápidos</string>
+    <string name="label_heighttoolz3">Cambiar el ancho de ajustes rápidos (para estilo Z3)</string>
+    <string name="label_lineheight">Ancho del borde (dp)</string>
+    <string name="label_movequick">Mover ajustes rápidos a la pestaña de notificación</string>
+    <string name="label_nosim">Ocultar icono de No SIM</string>
+    <string name="label_notab">Ocultar pestañas</string>
+    <string name="label_rebootaf">Nota</string>
+    <string name="label_transjpn">Arreglar traducciones Japonesas</string>
+    <string name="label_tranz1">Fijar barra de estado transparente</string>
+    <string name="label_tranz144">Cambiar ajustes rápidos</string>
+    <string name="label_widthz3">Ancho de ajustes rápidos (px)</string>
+    <string name="list_dialogtitle">Número</string>
+    <string name="list_summary">Especifica el número de elementos a mostrar por columna en los ajustes rápidos. Habilitar primero Cambiar ajustes rápidos.</string>
+    <string name="list_title">Número de elementos</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    <string name="misc">Miscelania</string>
+    <string name="nosum">Necesita reiniciar para que los cambios tengan efecto.</string>
+    <string name="quick">Notificación &amp; Ajustes Rápidos</string>
+    <string name="statusbar">Barra de estado</string>
+    <string name="sum_bigi">Deshabilitar apagado de luz automático</string>
+    <string name="sum_brigi">Deshabilitar apagado de luz automático</string>
+    <string name="sum_dataw">Hacer transparente el botón de notificaciones.</string>
+    <string name="sum_fullalert">Cambiar el nivel de batería para la alerta cuando la batería esté cargada. Selecciona "Reproducir sonido cuando la batería este cargada" en Ajustes de accesibilidad.</string>
+    <string name="sum_heightnum">Por defecto es 100.0</string>
+    <string name="sum_heighttool">Cambiar el alto de los ajustes rápidos. Usa esta opción si estás usando la SystemUI con estilo del Z2</string>
+    <string name="sum_heighttoolz3">Cambiar ancho de ajustes rápidos. Usa esta opción si estás usando un SystemUI con estilo de Xperia Z3</string>
+    <string name="sum_lineheight">Por defecto es 0.8</string>
+    <string name="sum_movequick">Mover los objetos de los ajustes rápdios a la pestaña de notificiaciones y ocultar perstañas. Usa esta opción si estás usando la SystemUI con estilo del Z2</string>
+    <string name="sum_nosim">Ocultar icono de No SIM cuando no haya una SIM.</string>
+    <string name="sum_notab">Ocultar pestaña de notificación y ajustes rápidos.</string>
+    <string name="sum_transjpn">Fijar traduccion Japonesa para ajustes rápidos.</string>
+    <string name="sum_tranz1">Deshabilitar capa negra en la barra de estado. NO habilitar en 4.4 o posterior.</string>
+    <string name="sum_tranz144">Cambiar el número de elementos por columna e ítems ilimitados en ajustes rápidos.</string>
+    <string name="sum_widthz3">Ancho por defecto es 270px (90dip para dispositivos xxhdpi)</string>
+</resources>

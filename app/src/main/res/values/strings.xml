@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="MissingTranslation">
+<resources>
     <string name="app_description">Mod SystemUI.apk for Xperia. Tap here to configure settings.</string>
     <string name="statusbar">Statusbar</string>
     <string name="label_brigi">Brighten status bar icon</string>
