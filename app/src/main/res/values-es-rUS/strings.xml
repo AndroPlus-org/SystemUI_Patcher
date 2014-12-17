@@ -33,7 +33,7 @@
     <string name="sum_lineheight">Por defecto es 0.8</string>
     <string name="misc">Miscelania</string>
     <string name="label_fullalert">Cambiar el nivel de alerta cuando la batería esté cargada</string>
-    <string name="sum_fullalert">Cambiar el nivel de batería para la alerta cuando la batería esté cargada. Selecciona "Reproducir sonido cuando la batería este cargada" en Ajustes de accesibilidad.</string>
+    <string name="sum_fullalert">Cambiar el nivel de batería para la alerta cuando la batería esté cargada. Selecciona \"Reproducir sonido cuando la batería este cargada\" en Ajustes de accesibilidad.</string>
     <string name="fullalert_title">Nivel de bateria (0 - 100)</string>
     <string name="fullalert_summary">El valor por defecto es 100 (Completamente cargada)</string>
     <string name="label_rebootaf">Nota</string>

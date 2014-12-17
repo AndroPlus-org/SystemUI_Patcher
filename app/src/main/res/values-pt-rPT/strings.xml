@@ -35,7 +35,7 @@
     <string name="sum_lineheight">Por omissão é 0.8</string>
     <string name="misc">Outros</string>
     <string name="label_fullalert">Alterar o aviso de bateria carregada</string>
-    <string name="sum_fullalert">Alterar o nível da bateria para o alerta de bateria carregada. Ativa "Tocar som quando bateria estiver completa" nas Opções de Acessibilidade.</string>
+    <string name="sum_fullalert">Alterar o nível da bateria para o alerta de bateria carregada. Ativa \"Tocar som quando bateria estiver completa\" nas Opções de Acessibilidade.</string>
     <string name="fullalert_title">Nível de bateria (0 - 100)</string>
     <string name="fullalert_summary">Valor por omissão é 100 (carga total)</string>
     <string name="label_rebootaf">Nota</string>

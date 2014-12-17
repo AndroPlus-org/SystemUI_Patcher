@@ -38,6 +38,8 @@
     <string name="sum_fullalert">どの%の時点を満充電とみなして音を鳴らすか設定します。ユーザー補助で「満充電時に音を鳴らす」にチェックを入れてください。</string>
     <string name="fullalert_title">バッテリー% (0 - 100)</string>
     <string name="fullalert_summary">デフォルトは100です。</string>
+    <string name="label_rounded">角丸を無効化する</string>
+    <string name="sum_rounded">角丸効果を無効にします。Flat Style Colored Barsを使っているときに角が白くなってしまう場合に使ってみてください。</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
     <string name="mesum">"@WedyDQ10"</string>

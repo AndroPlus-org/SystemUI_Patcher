@@ -35,9 +35,11 @@
     <string name="sum_lineheight">Default is 0.8</string>
     <string name="misc">Misc</string>
     <string name="label_fullalert">Change battery charged alert level</string>
-    <string name="sum_fullalert">Change battery level for battery charged alert. Check "Play sound when battery is full" in Accessibility settings.</string>
+    <string name="sum_fullalert">Change battery level for battery charged alert. Check \"Play sound when battery is full\" in Accessibility settings.</string>
     <string name="fullalert_title">Battery level (0 - 100)</string>
     <string name="fullalert_summary">Default value is 100 (fully charged)</string>
+    <string name="label_rounded">Disable rounded corners</string>
+    <string name="sum_rounded">Disable rounded corners effect. Use this if you have white corner problem with Flat Style Colored Bars.</string>
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
     <string name="mesum">"@WedyDQ10"</string>

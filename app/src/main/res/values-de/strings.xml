@@ -8,8 +8,8 @@
     <string name="sum_bigi">Deaktiviert automatisches Dimmen.</string>
     <string name="label_tranz1">Verbessert die transparente Statusleiste</string>
     <string name="sum_tranz1">Deaktiviert den schwarzen Schatten der Statusleiste: NICHT FÜR ANDROID 4.4+ GEEIGNET!</string>
-    <string name="label_nosim">Verstecke "Keine SIM" Icon</string>
-    <string name="sum_nosim">Verstecke "Keine SIM" Icon wenn du keine SIM im Gerät hast.</string>
+    <string name="label_nosim">Verstecke \"Keine SIM\" Icon</string>
+    <string name="sum_nosim">Verstecke \"Keine SIM\" Icon wenn du keine SIM im Gerät hast.</string>
     <string name="label_wifimerge">"Kombiniert Wlan und das mobile Internet Icon miteinander "</string>
     <string name="sum_wifimerge">"Kombiniert Wlan und das mobile Internet Icon miteinander. Wlan rechts neben der Mobilfunkstärke. "</string>
     <string name="quick">Benachrichtigung &amp; Schnelleinstellung</string>
@@ -33,14 +33,14 @@
     <string name="sum_widthz3">Standartbreite ist 270px (90dip für XXHDPI Geräte)</string>
     <string name="sum_lineheight">Standard ist 0.8</string>
     <string name="misc">Sonstiges</string>
-    <string name="label_fullalert">Ändere die "Batterie leer" Warnung</string>
-    <string name="sum_fullalert">Ändere den "Batterie leer" Warnungslevel. Aktiviere dazu die "Benachrichtigung bei vollem Akku" in den Einstellungen für EIngabehilfen.</string>
+    <string name="label_fullalert">Ändere die \"Batterie leer\" Warnung</string>
+    <string name="sum_fullalert">Ändere den \"Batterie leer\" Warnungslevel. Aktiviere dazu die \"Benachrichtigung bei vollem Akku\" in den Einstellungen für EIngabehilfen.</string>
     <string name="fullalert_title">Batterie level (0-100)</string>
     <string name="fullalert_summary">Standardwert ist 100 (Voll geladen)</string>
     <string name="label_rebootaf">Notiz</string>
     <string name="nosum">Einstellungen werden erst nach einem Neustart aktiv.</string>
     <string name="mesum">"@WedyDQ10"</string>
     <string name="list_title">Anzahl der Schaltflächen</string>
-    <string name="list_summary">Bestimme die Anzahl der Schaltflächen in den Schnelleinstellungen. Aktiviere zuerst die "Schnelleinstellungen".</string>
+    <string name="list_summary">Bestimme die Anzahl der Schaltflächen in den Schnelleinstellungen. Aktiviere zuerst die \"Schnelleinstellungen\".</string>
     <string name="list_dialogtitle">Anzahl</string>
 </resources>

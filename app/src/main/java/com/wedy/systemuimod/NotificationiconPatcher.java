@@ -229,6 +229,12 @@ resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel
 			resparam.res.setReplacement("com.android.systemui", "string", "quick_settings_rotation_unlocked_label", modRes.fwd(R.string.quick_settings_rotation_unlocked_label));
 			resparam.res.setReplacement("com.android.systemui", "string", "quick_settings_rotation_locked_label", modRes.fwd(R.string.quick_settings_rotation_locked_label));
 		}
+		// Disable rounded corners
+		boolean isRound1 = preference.getBoolean("key_rounded", false);
+		if(isRound1){
+			resparam.res.setReplacement("com.android.systemui", "bool", "config_roundedCornersEnabled", false);
+
+		}
 		
 	}
 
